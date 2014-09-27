@@ -1,0 +1,22 @@
+/*
+.atb-h4 {
+  color: lightpink;
+  font-weight: bold;
+}
+*/
+
+.atb-side-h4 {
+  margin-top: 50px;
+  color: lightpink;
+  font-weight: bold;
+}
+
+.atb-h2 {
+  border-left: 10px solid lightpink;
+  margin: 30px 0px 10px;
+  padding: 0px 0px 0px 5px;
+}
+.atb-img-ref {
+  color: lightpink;
+  font-size: 20px;
+}
