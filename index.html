@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Unofficial IT-chan's web site</title>
+    <title>ITちゃんの部屋 - Welcome to Unofficial IT-chan's web site</title>
 	<link rel="shortcut icon" href="img/favicon.ico">
 
     <!-- Bootstrap -->
@@ -31,19 +31,69 @@
 <div class="container">
 
 <div class="row">
-  <div class="col-md-12">
-  <div class="page-header">
-      <h1>Welcome to Unofficial IT-chan's Web Site</h1>
-  </div>
-  <h2>Select Language</h2>
-  <ul>
-    <li><h3><a href="ja/index.html">Japanese</a></li>
+  <ul class="nav nav-pills navbar-right">
+    <li><a href="ja/about.html">About</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">News<span class="caret"></span></a>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="ja/news.html">News</a></li>
+        <li><a href="ja/archives1.html">Archives 2002-2013</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Images<span class="caret"></span></a>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="ja/images-itchan.html">IT-chan 2011-</a></li>
+        <li><a href="ja/images-itchan1.html">IT-chan 2002-2011</a></li>
+        <li><a href="ja/images-hibikore.html">Hibikore-chan</a></li>
+      </ul>
+    </li>
+    <li><a href="ja/keywords.html">Keywords</a></li>
+    <li><a href="ja/others.html">Others</a></li>
+    <li><a href="ja/contact.html">Contact</a></li>
   </ul>
-  </div><!-- col-md-12 -->
+</div> <!-- row -->
+
+<div class="row">
+  <div style="margin:5px 0px; 20px;">
+    <div id="bxslider1">
+      <div><img src="img/netlab_101228_1600_480x300.jpg" /></div>
+      <div><img src="img/111230_sk_houdan_03_l_480x300.jpg" /></div>
+      <div><img src="img/title_140907_480x300.jpg" /></div>
+      <div><img src="img/111230_october_480x300.jpg" /></div>
+    </div>
+  </div>
 </div><!-- row -->
+
+<div class="row">
+  <div class="col-md-3 text-center">    
+  <a href="ja/news.html" class="top-category">
+  <h2><span class="glyphicon glyphicon-inbox"></span><br />News</h2></a>
+  <p>Read latet articles relating to IT-chan from NetLab, ITmedia and others.</p>
+  </div><!-- col-md-3 text-center -->
+
+  <div class="col-md-3 text-center">    
+  <a href="ja/images-itchan.html" class="top-category"> 
+  <h2><span class="glyphicon glyphicon-picture"></span><br />Images</h2></a>
+  <p>All images of IT-chan. Site top image, icon, ads etc. Download and use it!</p>
+  </div><!-- col-md-3 text-center -->
+
+  <div class="col-md-3 text-center">    
+  <a href="ja/keywords.html" class="top-category">
+  <h2><span class="glyphicon glyphicon-book"></span><br />Keywords</h2></a>
+  <p>Do you have any questions about articles in this site? Here you are.</p>
+  </div><!-- col-md-3 text-center -->
+
+  <div class="col-md-3 text-center">    
+  <a href="ja/images-hibikore.html" class="top-category">
+  <h2><span class="glyphicon glyphicon-leaf"></span><br />Hibikore</h2></a>
+  <p>Of course, Hibikore-chan, it-chan and other freiends are here.</p>
+  </div><!-- col-md-3 text-center -->
+</div><!-- row -->
+
 <hr />
-<small>IT-chan's room by atachibana 2009-<script>document.write(new Date().getFullYear())</script>.
-All images and artcles appear courtesy of the author and ITmedia Inc.</small><br /><br />
+<p class="text-center"><small>IT-chan's room by atachibana 2009-<script>document.write(new Date().getFullYear())</script>.
+All images and artcles appear courtesy of the author and ITmedia Inc.</small></p>
 </div><!-- container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -51,5 +101,25 @@ All images and artcles appear courtesy of the author and ITmedia Inc.</small><br
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-  </body>
+    <!-- bxSlider Javascript file -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+    <script>
+    $(document).ready(function(){
+    	$('#bxslider1').bxSlider({
+    		auto:true,
+    		speed:5000,
+    		pause:3000,
+    		minSlides: 1,
+    		maxSlides: 2,
+    		slideWidth: 480,
+            controls:false,
+            pager:false
+    	});
+    });
+    </script>
+
+</body>
 </html>

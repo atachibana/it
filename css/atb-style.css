@@ -1,12 +1,5 @@
-/*
-.atb-h4 {
-  color: lightpink;
-  font-weight: bold;
-}
-*/
-
 .atb-side-h4 {
-  margin-top: 50px;
+  margin-top: 30px;
   color: lightpink;
   font-weight: bold;
 }
@@ -20,3 +13,10 @@
   color: lightpink;
   font-size: 20px;
 }
+
+.atb-top-category {
+  margin: 5px; 1px;
+}
+
+a.top-category { text-decoration: none; } 
+a.top-category:hover { text-decoration: none; } 

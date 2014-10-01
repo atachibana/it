@@ -5,52 +5,52 @@
 <url>
   <loc>http://itchan.unofficialtokyo.com/</loc>
   <priority>1.0</priority>
-  <lastmod>2014-09-28T17:14:00+09:00</lastmod>
-</url>
-<url>
-  <loc>http://itchan.unofficialtokyo.com/ja/index.html</loc>
-  <priority>0.8</priority>
-  <lastmod>2014-09-27T21:06:00+09:00</lastmod>
+  <lastmod>2014-10-01T22:12:00+09:00</lastmod>
 </url>
 <url>
   <loc>http://itchan.unofficialtokyo.com/ja/about.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2014-09-27T21:06:00+09:00</lastmod>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T21:26:00+09:00</lastmod>
 </url>
 <url>
-  <loc>http://itchan.unofficialtokyo.com/ja/images-itchan.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2014-09-27T21:06:00+09:00</lastmod>
-</url>
-<url>
-  <loc>http://itchan.unofficialtokyo.com/ja/images-itchan1.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2014-09-28T16:27:00+09:00</lastmod>
-</url>
-<url>
-  <loc>http://itchan.unofficialtokyo.com/ja/images-hibikore.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2014-09-27T21:06:00+09:00</lastmod>
-</url>
-<url>
-  <loc>http://itchan.unofficialtokyo.com/ja/keywords.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2014-09-27T21:06:00+09:00</lastmod>
-</url>
-<url>
-  <loc>http://itchan.unofficialtokyo.com/ja/others.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2014-09-27T21:06:00+09:00</lastmod>
+  <loc>http://itchan.unofficialtokyo.com/ja/news.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T21:25:00+09:00</lastmod>
 </url>
 <url>
   <loc>http://itchan.unofficialtokyo.com/ja/archives1.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2014-09-28T16:32:00+09:00</lastmod>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T21:27:00+09:00</lastmod>
+</url>
+<url>
+  <loc>http://itchan.unofficialtokyo.com/ja/images-itchan.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T21:50:00+09:00</lastmod>
+</url>
+<url>
+  <loc>http://itchan.unofficialtokyo.com/ja/images-itchan1.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T21:26:00+09:00</lastmod>
+</url>
+<url>
+  <loc>http://itchan.unofficialtokyo.com/ja/images-hibikore.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T21:27:00+09:00</lastmod>
+</url>
+<url>
+  <loc>http://itchan.unofficialtokyo.com/ja/keywords.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T22:09:00+09:00</lastmod>
+</url>
+<url>
+  <loc>http://itchan.unofficialtokyo.com/ja/others.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T21:26:00+09:00</lastmod>
 </url>
 <url>
   <loc>http://itchan.unofficialtokyo.com/ja/contact.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2014-09-27T21:06:00+09:00</lastmod>
+  <priority>0.8</priority>
+  <lastmod>2014-10-01T21:24:00+09:00</lastmod>
 </url>
 
 </urlset>
