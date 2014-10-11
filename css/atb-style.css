@@ -1,13 +1,14 @@
 .atb-side-h4 {
-  margin-top: 30px;
+  margin-top: 15px;
   color: lightpink;
   font-weight: bold;
 }
 
 .atb-h2 {
   border-left: 10px solid lightpink;
+  border-top: 2px solid lightpink;
   margin: 30px 0px 10px;
-  padding: 0px 0px 0px 5px;
+  padding: 6px 0px 0px 5px;
 }
 .atb-img-ref {
   color: lightpink;
