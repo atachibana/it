@@ -1,3 +1,12 @@
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
 .atb-side-h4 {
   margin-top: 15px;
   color: lightpink;
@@ -10,6 +19,14 @@
   margin: 30px 0px 10px;
   padding: 6px 0px 0px 5px;
 }
+
+h2 {
+  border-left: 10px solid lightpink;
+  border-top: 2px solid lightpink;
+  margin: 30px 0px 10px;
+  padding: 6px 0px 0px 5px;
+}
+
 .atb-img-ref {
   color: lightpink;
   font-size: 20px;
