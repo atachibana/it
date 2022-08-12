@@ -7,24 +7,29 @@ body {
     sans-serif;
 }
 
-.atb-side-h4 {
-  margin-top: 15px;
-  color: lightpink;
-  font-weight: bold;
+
+h1 {
+  color: #ff69b4;
 }
 
 .atb-h2 {
   border-left: 10px solid lightpink;
   border-top: 2px solid lightpink;
-  margin: 30px 0px 10px;
+  margin: 30px 0px 20px;
   padding: 6px 0px 0px 5px;
 }
 
 h2 {
   border-left: 10px solid lightpink;
   border-top: 2px solid lightpink;
-  margin: 30px 0px 10px;
+  margin: 30px 0px 20px;
   padding: 6px 0px 0px 5px;
+}
+
+.atb-side-h4 {
+  margin-top: 15px;
+  color: lightpink;
+  font-weight: bold;
 }
 
 .atb-img-ref {

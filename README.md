@@ -8,6 +8,13 @@ It includes customized less files of bootstrap.
 
 ## History
 
+Version 2.0 (8/Aug/2022)
+- Redesigned top page.
+- https support.
+- GA4 support.
+- Merged FC2 old pages such as index, onetopi, April fool pages.
+- Added Columns page.
+
 Version 1.2 (6/Dec/2015)
 
 - Top page menu change. Now, it has the same view with child pages.
