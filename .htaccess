@@ -1,3 +1,5 @@
-RewriteEngine on
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 RewriteCond %{REQUEST_FILENAME} index\.html
-RewriteRule ^ja/index\.html$ /ja/news\.html [R=301,L]
+RewriteRule ^/index\.html$ / [R=301,L]
