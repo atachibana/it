@@ -43,3 +43,7 @@ h2 {
 
 a.top-category { text-decoration: none; } 
 a.top-category:hover { text-decoration: none; } 
+
+.atb-img {
+  max-width: 100%;
+}
